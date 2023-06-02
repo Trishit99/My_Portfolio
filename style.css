@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    /* background-image: url(https://media.istockphoto.com/id/1339249991/photo/opened-the-book.jpg?s=612x612&w=0&k=20&c=BvgYUZCcsdFk61XD1iX0Kt7aMnRUUuFDMTkynhgdjv4=);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 150px;
+    height: 550px;
+
+    /* margin-top: 0px;
+    margin-left: 0px; */
+}
+
+.foot {
+    /* background-color:darkgray; */
+    width: 1366px;
+    height: 107px;
+    display: flex;
+    color:burlywood;
+    opacity: 0.3;
+  
+}
+
+#pic {
+    width: 125px;
+    height: 130px;
+    position: relative;
+    bottom: 50px;
+    opacity: 0.5;
+    /* left: 250px; */
+    /* margin-left: 350px; */
+    /* border-radius: 450px;   */
+    /* border: 3px solid black; */
+}
+
+
+ body {
+    /* background-color:thistle;  */
+    /* background-image: url(mailchimp-Vc2dD4l57og-unsplash.jpg); */
+    background-image: url(https://img.freepik.com/free-vector/geometrical-futuristic-red-lights-background_23-2148282486.jpg?size=626&ext=jpg&ga=GA1.1.1477363454.1685243529&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center; 
+    
+    
+     /* width: 100%; 
+     height: 100%;  */
+     /* background-color: hsl(0, 0%, 85%);   */
+ } 
+
+
+
+#nav1 {
+    margin: 20px;
+    position: relative;
+    bottom: 50px;
+    margin-right: 50px;
+}
+
+#nav2 {
+    margin: 20px;
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+}
+
+#nav3 {
+    margin: 15px;
+    position: relative;
+    top: 20px;
+    left: 3px;
+}
+
+.link {
+    /* margin-left: 950px; */
+    float: right;
+    position: relative;
+    /* top: 50px; */
+    /* bottom: 100px; */
+    left: 950px;
+    display: flex;
+
+}
+
+#link1 {
+    position: relative;
+    /* bottom: 250px; */
+    top: 50px;
+    right: 430px;
+    opacity: 0.5; 
+
+
+}
+
+#re {
+     border-radius: 50px; 
+    height: 50px;
+    width: 250px;
+    background-color:navy;
+    color: aliceblue;
+    border-color: sandybrown;
+    font-size: large ;
+    font-weight: bolder;
+    position: relative;
+    left: 780px;
+    bottom: 150px;
+    
+}
+
+#link2 {
+    position: relative;
+    /* bottom: 200px; */
+    /* top: 150px; */
+    right:150px;
+     opacity: 0.5; 
+
+}
+
+#pro {
+     border-radius:50px; 
+    height: 50px;
+    width: 250px;
+    background-color:navy;
+    border-color: sandybrown;
+    color: aliceblue;
+    font-size: large ;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    position: relative;
+    left: 250px;
+}
+
+#link3 {
+    position: relative;
+    /* bottom: 150px; */
+    /* top: 150px; */
+    left:150px;
+     opacity: 0.5; 
+
+
+}
+
+#cer {
+     border-radius: 50px; 
+    height: 50px;
+    width: 250px;
+    background-color:navy;
+    border-color: sandybrown;
+    color: aliceblue;
+    font-size: large ;
+    font-weight: bolder;
+    margin-top: 100px;
+    position: relative;
+    right: 300px;
+}
+
+#mob {
+    margin-left: 60px;
+    
+}
+
+#mail {
+    margin-left: 200px;
+}
+
+#follow {
+    margin-left: 170px;
+    
+}
+
+#copy {
+    margin-left: 30px;
+    font-size: large;
+    margin-top: 50px;
+}
+
+#num {
+    margin-top: 30px;
+    font-size: larger;
+}
+
+#com {
+    margin-top: 30px;
+    font-size: larger;
+}
+
+#job {
+    position: relative;
+    top: 50px;
+    right: 70px;
+    
+}
+
+#git {
+    position: relative;
+    top: 50px;
+    right: 50px;
+    
+}
+#mob1{
+    font-size: larger;
+    position: relative;
+    top: 20px;
+}
+#mail1{
+    font-size: larger;
+    position: relative;
+    top: 20px;
+}
+#fool{
+    /* position: relative;
+    bottom: 10px; */
+    font-size: larger;
+    
+}
+
+#cv{
+    font-weight: bolder;
+    
+}
+#port{
+    margin-left: 150px;
+    position: relative;
+    top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    opacity:0.4;
+}
+#re:hover{
+   background-color:wheat;
+   color: black;
+   height: 70px;
+   /* width: 300px; */
+}
+#pro:hover{
+    background-color:wheat;
+    color: black;
+    height: 70px;
+ }
+ #cer:hover{
+    background-color:wheat;
+    color: black;
+    height: 70px;
+ }
+ #port:hover:hover{
+    color: wheat;
+ }

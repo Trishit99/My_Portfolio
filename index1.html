@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    
+    <div class="nav">
+        <p id="port"><b>PORTFOLIO</b></p>
+        <img id="pic" src="DP-removebg-preview.png"> 
+        <nav>
+            
+            <!-- <img id="pic" src="DP-removebg-preview.png">  -->
+            <a id="nav1" href="index1.html"><i class="fa fa-home" style="font-size:27px; color:cornflowerblue;opacity: 0.6;"></i></a><br>
+            <a id="nav2" href="aboutme.html" target="_blank"><i class="fa fa-user" style="font-size:27px;color:cornflowerblue;opacity: 0.6;"></i></i></a><br>
+            <a id="nav3" href="contact.html" target="_blank"><i class="fa fa-envelope" style="font-size:25px;color:cornflowerblue; opacity: 0.6;"></i></a><br>
+        </nav>
+
+        <!-- <img id="pic" src="PICTURE.jpg"> -->
+
+        <div class="link">
+            
+            <a id="link1" href="My Resume (1).pdf" target="_blank"><button id="re"><b id="cv">RESUME</b></button></a>
+            <a id="link2" href="projects.html" target="_blank"><button id="pro"><b id="poem">PROJECTS</b></button></a>
+            <a id="link3" href="certificates.html" target="_blank"><button id="cer"><b id="intern">SKILLS & CERTIFICATES</b></button></a>
+            
+
+        </div>
+    </div>
+    
+    <div class="foot">
+        
+        <pre id="mob"><b id="mob1">Phone</b> <pre id="num">(+91)8240066534</pre> </pre><pre id="mail"><b id="mail1">Email</b> <pre id="com">trishit10@gmail.com</pre> </pre><pre id="follow"><b id="fool">Follow me </b> <a id="job" href="https://www.linkedin.com/in/trishit-das-1b9460221/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px; color:navy; opacity: 1;"></i></a><a id="git" href="https://github.com/Trishit99" target="_blank"><i class="fa fa-github" style="font-size:36px;color: black; opacity:1;"></i></a></pre><pre id="copy">
+            © Created By Trishit Das.</pre><br> <br>
+            
+    </div>
+    <script>
+      var load = document.getElementById("nav1");
+      load.addEventListener("click",function(){
+        alert("You are in HOME");
+      })
+      function  btn(){
+        var username= window.prompt("Hello welcome to my Portfolio, may i know your name?");
+        var str = "nice to meet you "+username+" Hope you are going to enjoy";
+        alert(str);
+      }
+      onclick=btn();
+    </script>
+</body>
+
+</html> 

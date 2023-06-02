@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1682536460259-b40cef108baa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .shift {
+            text-align: center;
+            position: relative;
+            top: 100px;
+            border: 0.5px solid rosybrown;
+            width: 500px;
+            height: 350px;
+            position: relative;
+            left: 30%;
+            font-size: larger;
+            border-radius: 35px;
+            opacity: 0.8;
+        }
+
+        label {
+            color:aliceblue;
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        input {
+            border-radius: 10px;
+            height: 20px;
+        }
+
+        button {
+            border-radius: 10px;
+            
+        }
+
+        h3 {
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="shift">
+        <h3>CONTACT ME</h1>
+            <br>
+            <form name="myForm" onsubmit="return validateForm()" method="get" required>
+                <label>Name :</label>
+                <input type="text" name="fname" placeholder="Provide your Name">
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            <form onsubmit="return passLength()">
+                <label for="number">Mobile number:</label>
+                <input type="number" id="number"  placeholder="Enter 10 digit mobile number" required>
+                <button type="submit">Submit</button>
+            </form>
+
+            <br>
+            <form onsubmit="return range()">
+                <label for="feed">Please provide your feedback</label> <br>
+                <textarea name="feedback" id="feed" cols="25" rows="5" required></textarea><br>
+                <button type="submit" id="btn1">S u b m i t</button>
+            </form>
+            <br>
+            <!-- <form onsubmit="return age()">
+                <label for="num"> Please Provide your Age :</label>
+                <input type="number" id="num" placeholder="Your Age">
+                <button type="submit" id="btn">S u b m i t</button>
+            </form> -->
+    </div>
+
+
+
+    <script>
+        function validateForm() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == "" || x == null) {
+                alert("Please Provide Your Name");
+                return false;
+            }
+        }
+    </script>
+
+    <br>
+
+
+    <script> function passLength() {
+            const Number = document.getElementById("number").value;
+            if (Number.length > 10) {
+                alert("Mobile number cannot be more than 10 digit.");
+                
+            } else if (Number.length < 10) {
+                alert("Mobile number cannot be less than 10 digit.");
+                
+            }
+            
+        }
+    </script>
+
+
+    <script>
+        document.getElementById("btn1").addEventListener("click", function () {
+            const soul = document.getElementById("feed").value
+            if (soul == "" || soul == null) {
+                alert("Please provide your feedback");
+                return false;
+
+            } 
+            else {
+                alert("Thankyou for providing your feedback");
+            }
+
+
+        })
+    </script>
+
+
+    <!-- <script>
+        document.getElementById("btn").addEventListener("click", function () {
+            const sol = document.getElementById("num").value
+            if (sol < 18) {
+                alert("Below 18 AGE not allowed for seminar");
+
+            } else if (sol > 18) {
+                alert("WELCOME TO SEMINAR");
+            }
+
+        })
+    </script> -->
+</body>
+</html>
